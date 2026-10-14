@@ -1,209 +1,204 @@
-# Awesome-Automated-Reserve-Management-In-Crypto
+<div align="center">
 
-## Top Automated Reserve Management in Crypto Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Automated Reserve Management in Crypto &amp; Stablecoins" width="100%" />
 
+# 🌐 Awesome Automated Reserve Management in Crypto
 
+**A curated index of enterprise SaaS solutions, algorithmic protocols, and open-source tooling for automated stablecoin reserve management, cryptographic proof-of-reserves (PoR), and on-chain treasury automation.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto?style=flat-square&color=blue" alt="Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto?style=flat-square&color=green" alt="Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+</p>
 
-*Focused on Stablecoin Reserves, Proof of Reserves & Treasury Automation*  
+<p align="center">
+  <b>Keywords:</b> Proof of Reserves (PoR) • Stablecoin Reserves • Automated Treasury Management • RWA Tokenization • Algorithmic Market Operations • Merkle Solvency • Collateral Oracles
+</p>
 
-**Last updated: March 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Automated Reserve Management in Crypto**. These tools enable stablecoin issuers, DAOs, and treasury teams to automate collateral tracking, proof-of-reserves attestation, yield generation, and risk monitoring across fiat-backed, crypto-backed, and algorithmic stablecoin models.
-
-
-
-**Examples** include Tether (USDT), Circle (USDC), Paxos (USDP/PYUSD), MakerDAO/Sky (DAI/USDS), Ethena Labs (USDe), Ondo Finance (USDY), Mountain Protocol (USDM), Frax Finance (FRAX), First Digital (FDUSD), and PayPal USD (PYUSD) (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, Merkle-tree proof of reserves, and open treasury management — ideal for issuers, DAOs, and developers seeking transparent, verifiable reserve infrastructure.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Tether (USDT)](https://tether.to/)**  
-
-  Largest stablecoin by market cap with ~$183B in token-related liabilities as of March 2026. Reserves concentrated in short-duration US Treasury bills (~$141B), with physical gold (~$20B) and Bitcoin (~$7B). Excess reserves reached an all-time high of $8.23B in Q1 2026. Quarterly attestations by BDO; KPMG U.S. issued first full financial audit for 2025 accounts. Operates under El Salvador's Digital Asset Service Provider framework .
-
-
-
-- **[Circle (USDC)](https://www.circle.com/transparency)**  
-
-  Fully-reserved dollar stablecoin with ~$77B in circulation. Reserves held 100% in cash and cash-equivalents: majority in Circle Reserve Fund (USDXX), an SEC-registered 2a-7 government money market fund managed by BlackRock, containing cash, short-dated US Treasuries, and overnight Treasury repos. Remainder in cash at leading global banks. Monthly third-party assurance by Big Four firm (Deloitte). Weekly reserve holdings disclosure with mint/burn flows .
-
-
-
-- **[Paxos (USDP/PYUSD)](https://www.paxos.com/pyusd-transparency)**  
-
-  First regulated blockchain infrastructure platform. USDP reserves held 100% in cash and cash equivalents. Monthly attestations by KPMG LLP (since February 2025; previously WithumSmith+Brown). Self-reported portfolio composition 5 business days after month-end. Regulated by New York State Department of Financial Services (NYDFS). PYUSD issued for PayPal .
-
-
-
-- **[MakerDAO / Sky (DAI/USDS)](https://docs.frax.finance/zh/frax-v3-100-and-more/gai-lan)**  
-
-  Decentralized stablecoin with overcollateralized crypto vaults and RWA allocations. DAI/USDS combined supply ~$13B. RWA positions (~$2.68B as of early 2026) structured through Monetalis Clydesdale and BlockTower, holding BlackRock and government money market fund shares. RWA yields flow to Dai Savings Rate (DSR) / Sky Savings Rate (SSR). SSR fell from 11.25% (January 2025) to ~3.75% (mid-2026) tracking T-bill rates. USDS includes upgradeable freeze function not present in immutable DAI code .
-
-
-
-- **[Ethena Labs (USDe)](https://ethena.fi/)**  
-
-  Synthetic dollar backed by delta-neutral derivatives positions. Reserve composition evolved significantly: as of July 2026, only ~1% in classic crypto basis positions, ~46% DeFi lending, ~35% liquid stablecoins, ~11.2% tokenized RWAs, and ~6.9% institutional lending (including $1B FalconX credit line). Holds staked ETH long + short ETH perpetual futures across Binance, Bybit, OKX, Deribit. Custodians: Copper, Ceffu, Cobo. Yield from funding rate spread. Expanded to equity perpetuals in August 2026 with strict screening (min $25M one-sided OI, 30-day funding history) .
-
-
-
-- **[Ondo Finance (USDY)](https://ondo.finance/)**  
-
-  Tokenized note backed by short-term US Treasuries and bank deposits. ~$2.14-2.20B outstanding as of late August 2026. Collateralization ratio 105.79%. Portfolio mix: ~92% short-term US Treasuries (mostly under 6 months), ~8% bank demand deposits. Custody largely at Morgan Stanley. Monthly auditor review. Managed by Ankura Trust. Yield accrues daily with NAV increasing; 7-day annualized yield ~3.49% (August 2026). Restricted to eligible non-US persons .
-
-
-
-- **[Mountain Protocol (USDM)](https://mountainprotocol.com/faqs/)**  
-
-  Yield-bearing stablecoin backed by short-term US Treasury bills. Reserves held in segregated, bankruptcy-remote accounts. Composition minimizes stablecoins and bank deposits to mitigate counterparty risk. Yield passed to holders via daily rebasing. Regulated under Bermuda Monetary Authority .
-
-
-
-- **[Frax Finance (FRAX)](https://docs.frax.finance/)**  
-
-  Stablecoin using Algorithmic Market Operations (AMO) smart contracts and permissionless sub-protocols (Fraxlend, Frax Bonds, Fraxswap). FRAX V3 targets ≥100% exogenous collateralization. IORB oracle links protocol strategies to Federal Reserve interest on reserve balances. Frax Bonds issued below par with various maturities to absorb/lock FRAX. Non-redeemable model — stability via AMO and governance .
-
-
-
-- **[First Digital (FDUSD)](https://firstdigitallabs.com/)**  
-
-  Hong Kong-based stablecoin issuer with regulated custody and attestation framework. Reserves held in segregated accounts with monthly attestations.
-
-
-
-- **[PayPal USD (PYUSD)](https://www.paypal.com/)**  
-
-  PayPal's stablecoin issued by Paxos Trust Company. Fully backed by US dollar deposits and Treasury securities. NYDFS-regulated with monthly attestations. Integrated into PayPal ecosystem for payments and transfers .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)**  
-
-  Battle-tested smart contract library (MIT) including `ERC20`, `AccessControl`, `Pausable`, and `MerkleProof` — foundational building blocks for stablecoin issuance, reserve accounting, and proof-of-reserves verification. The most widely audited contract library in the ecosystem.
-
-
-
-- **[Chainlink Proof of Reserve](https://github.com/smartcontractkit/chainlink)**  
-
-  Decentralized oracle network (MIT) providing automated, cryptographically signed attestations of off-chain reserves. Feeds reserve data on-chain for stablecoins, wrapped assets, and cross-chain bridges. Integrates with major custodians and auditors.
-
-
-
-- **[Celo Reserve](https://github.com/celo-org/celo-monorepo)**  
-
-  Open-source reserve management for the Celo stablecoin ecosystem (Apache-2.0). Multi-asset reserve (BTC, ETH, stablecoins, natural capital assets) with on-chain governance. Reserve smart contracts manage collateralization and stability.
-
-
-
-- **[Proof of Reserves (PoR) Tools](https://github.com/bitcoin-proof-of-reserves)**  
-
-  Community projects for Merkle-tree based proof of reserves. Generate cryptographic proofs that a custodian holds assets covering liabilities without revealing individual balances. Used by exchanges and stablecoin issuers.
-
-
-
-- **[DefiLlama Stablecoins API](https://github.com/DefiLlama/defillama-server)**  
-
-  Open-source API (MIT) tracking stablecoin supply, collateralization, and reserve composition across chains. Powers public transparency dashboards.
-
-
-
-- **[Merkle Distributor](https://github.com/Uniswap/merkle-distributor)**  
-
-  Open-source Merkle-tree based distribution contract (GPL-3.0) from Uniswap. Pattern applicable to proof-of-reserves attestations and reserve asset distribution.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Gnosis Safe](https://github.com/safe-global/safe-contracts)** — Multi-signature treasury management (LGPL-3.0) for reserve custody and governance.
-
-- **[OpenZeppelin Defender](https://github.com/OpenZeppelin/defender)** — Automated operations and monitoring for on-chain reserve management.
-
-- **[Tellor](https://github.com/tellor-io/tellor) ** — Decentralized oracle for reserve price feeds and attestation.
-
-- Community **n8n** workflows for reserve monitoring alerts and treasury automation.
-
-
-
-**Frameworks for building custom systems**: Combine **OpenZeppelin Contracts** for reserve smart contracts with **Chainlink Proof of Reserve** for oracle attestations, **Gnosis Safe** for multi-sig custody, **Merkle Distributor** patterns for proof generation, and **PostgreSQL** for off-chain audit trails — creating a fully self-hosted, verifiable reserve management platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Reserve management systems handling tokenized assets must comply with applicable securities, banking, and anti-money laundering regulations.
-
-- **Attestation is not audit.** An attestation confirms reserves matched liabilities on a specific date; a full audit examines financial records, internal controls, and reporting practices across a period. Attestation-to-publication lags range from 3-4 weeks (Circle) to 31 days (Tether Q1 2026) — nothing is independently checked between snapshots .
-
-- **Reserve composition varies dramatically.** USDC and USDP hold 100% cash and cash-equivalents. USDT includes gold (~$20B) and Bitcoin (~$7B). USDe evolved from crypto basis trades to a portfolio of loan claims, third-party stablecoins, and tokenized RWAs — only ~1% classic crypto basis as of July 2026. **What backs a stablecoin today may look nothing like its original design** .
-
-- **Yield-bearing stablecoins introduce new risks.** USDY and USDM pass Treasury yield to holders, but their NAV rises instead of holding $1.00. This creates tax, accounting, and smart contract complexity. Ethena's yield from funding rate spreads is volatile and can turn negative — an 18% equity basis in July 2026 halved by August .
-
-- **Decentralization claims deserve scrutiny.** DAI/USDS RWA pivot introduced centralized custody intermediaries — roughly half of collateral now sits with centralized custodians. USDS includes an upgradeable freeze function absent from DAI's immutable code .
-
-- Self-hosted open-source solutions require proper security hardening, key management, and ongoing maintenance. Reserve management is a security-critical operation demanding appropriate operational expertise and regulatory compliance.
-
-
+</div>
 
 ---
 
+## 📑 Table of Contents
 
+- [📌 Introduction & Scope](#-introduction--scope)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architectural Blueprints for Reserve Systems](#️-architectural-blueprints-for-reserve-systems)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Risk Analysis & Disclaimer](#️-risk-analysis--disclaimer)
 
-**Made for stablecoin issuers, DAO treasurers, crypto engineers, and developers building transparent reserve management solutions.**  
+---
 
-Let's make Automated Reserve Management in Crypto more open, data-driven, and verifiable.
+## 📌 Introduction & Scope
+
+Automated reserve management represents the critical infrastructure backbone of digital asset stability. As tokenized financial instruments scale beyond fiat proxies into Real-World Assets (RWAs), algorithmic yield mechanisms, and synthetic delta-neutral derivatives, the manual tracking of vault collateral is no longer viable. 
+
+This repository systematically indexes the ecosystem's leading **hosted SaaS platforms** and **peer-reviewed open-source frameworks** utilized by stablecoin issuers, decentralized autonomous organizations (DAOs), institutional custodians, and Web3 treasuries to accomplish:
+- 🛡️ **Cryptographic Proof of Reserves (PoR):** Continuous, trust-minimized verification of off-chain bank balances and on-chain vaults using zero-knowledge proofs and Merkle sum trees.
+- ⚙️ **Automated Liquidity & Collateral Sweeps:** Algorithmic rebalancing between yield-generating sovereign debt (e.g., US Treasury bills, money-market funds) and liquid redemption reserves.
+- 📡 **Decentralized Oracle Attestation:** Real-time on-chain mint/burn gating tied to independent auditor and custodian data feeds.
+- 🔐 **Multi-Party Treasury Custody:** Cryptographically enforced execution policies for capital allocation, automated payroll, and yield distribution.
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+> **Estimated Market Size:** The digital asset reserve management and collateralized stablecoin ecosystem currently secures over **$210+ Billion** in circulating liquidity, with institutional forecasts projecting market expansion to **$1.5 Trillion – $2.0 Trillion** by 2028–2030 as traditional cash equivalents, short-term US Treasuries, and tokenized institutional funds (e.g., BlackRock BUIDL, Franklin Templeton FOBXX) migrate on-chain.
+>
+> **Market Structure & Concentration:** The primary issuance tier of the sector is **highly concentrated (winner-take-most)**, with Tether (USDT) and Circle (USDC) dominating more than **85%** of aggregate market capitalization and daily transaction settlement. Conversely, the secondary infrastructure and execution layer is **moderately fragmented**, characterized by intense competitive differentiation across synthetic yield engines (Ethena), decentralized overcollateralized lending protocols (Maker/Sky, Liquity), tokenized yield-bearing debt notes (Ondo, Mountain), and modular oracle attestation services (Chainlink, Tellor, Summa).
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+The table below catalogs primary commercial and hosted platforms offering automated reserve management, stablecoin issuance infrastructure, MPC custody, and Proof-of-Reserve oracle pipelines.
+
+> 💡 *Entries are sorted in descending order by company size (valuation, market capitalization, or annualized revenue).*
+
+| 🏢 Platform / Provider | 📈 Company Size (Valuation / Revenue) | ⚙️ Reserve Mechanism & Category | 💳 Starting Tier Pricing | 🎁 Free Tier & Trial Limits | 🔍 Key Reserve Management Features |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Tether (USDT)](https://tether.to/)** | **~$150B Valuation**<br>*(~$13.0B Net Annual Profit; ~$183B Reserve Assets)* | Fiat-backed (US Treasuries, Overnight Repos, Gold, Bitcoin) | **$150 one-time** account verification fee; **0.10% redemption fee** ($1,000 minimum fee; $100,000 min order) | **Free forever public access** to real-time reserve balances, quarterly BDO attestations, and public REST API (up to 60 req/min without login) | Largest stablecoin reserve ($141B+ T-bills, $20B gold, $7B BTC); maintains an excess capital reserve buffer of over $8.2B under El Salvador DASP regulatory framework. |
+| **[PayPal USD (PYUSD)](https://www.paypal.com/)** | **~$70B Market Cap**<br>*($31.8B Annual Revenue)* | Regulated Fiat-backed (Cash Deposits & US Treasuries via Paxos Trust) | **0% fee** on USD to PYUSD conversion and transfers; **1.90% + $0.49** per transaction starting merchant checkout processing tier | **Free forever Developer Sandbox** providing 10,000 monthly simulated transactions, mock wallets, and REST API access | Regulated by the New York State Department of Financial Services (NYDFS); reserves held in short-term T-bills and cash equivalents with monthly third-party CPA attestations. |
+| **[Chainlink PoR (Hosted Feeds)](https://chain.link/proof-of-reserve)** | **~$10.5B Market Cap**<br>*($LINK Token Valuation)* | Decentralized Proof-of-Reserve Oracle Feeds & Attestation | **$500/month** base retainer for private custom enterprise reserve feeds or **$5.00 flat fee** per on-chain attestation call via Chainlink Functions | **Free forever access** across all testnets (Sepolia, Amoy, Arbitrum Testnet) with unlimited mock reserve feed calls and sample attestations | Cryptographically signed attestations bridging off-chain bank/custodian balances directly into smart contract mint/burn rules; automated circuit breaker pauses. |
+| **[Circle Developer Platform (USDC)](https://www.circle.com/)** | **~$9.0B Valuation**<br>*($1.7B Annual Revenue)* | Regulated Cash & MMF (Circle Reserve Fund / BlackRock USDXX) | **$0.020 per Monthly Active Wallet** and **$0.00025 per API call** above free tier ($5.00 monthly minimum invoice threshold) | **Free forever tier** includes the first 1,000 Monthly Active Wallets (MAWs) and first 25,000 Smart Contract Platform API calls every month | 100% backed by cash and SEC-registered government money market funds managed by BlackRock; monthly Big Four (Deloitte) assurances and daily mint/burn transparency. |
+| **[Fireblocks (Treasury Automation)](https://www.fireblocks.com/)** | **~$8.0B Valuation**<br>*($200M+ Annual Revenue)* | MPC Institutional Treasury & Reserve Operations SaaS | **$500/month** for Core Treasury Starter plan (includes MPC policy engine, AML transaction screening, and automated sweeps) | **14-day free trial** with full sandbox API access, up to 5 multi-sig testnet vault accounts, and automated transaction rule builder | Hardware-isolated multi-party computation (MPC-CMP) key infrastructure, programmatic rebalancing rules, and automated sweeping of reserve liquidity. |
+| **[Ondo Finance (USDY)](https://ondo.finance/)** | **~$7.0B FDV**<br>*($1.8B Market Cap; $600M+ TVL)* | Tokenized US Treasury Notes (RWA Yield-Bearing Reserve) | **0.15% creation/redemption fee** ($100,000 minimum mint) plus **0.50% annualized management fee** deducted from yield | **Free forever public API** and on-chain contract read calls (unlimited public queries up to 10 requests/sec for daily NAV & yields) | Overcollateralized at ~105.8%; underlying reserves held at Morgan Stanley; daily NAV yield rebasing; monthly third-party auditor reviews by Ankura Trust. |
+| **[Ethena Labs (USDe)](https://ethena.fi/)** | **~$3.5B FDV**<br>*($1.2B Market Cap; $200M+ Protocol Revenue)* | Synthetic Delta-Neutral & RWA Collateral Engine | **0.10% transaction fee** on minting/redeeming via whitelisted institutional participants ($100,000 minimum) | **Free forever public dashboard** with real-time portfolio breakdown, open Dune Analytics telemetry, and permissionless sUSDe yield staking | Backed by long spot ETH/BTC combined with short perpetual futures across major custodians (Copper, Ceffu, Cobo), liquid stablecoins, and tokenized RWAs. |
+| **[Paxos Platform (USDP)](https://paxos.com/)** | **~$2.4B Valuation**<br>*($180M Estimated Annual Revenue)* | Regulated Stablecoin Issuance & Brokerage APIs | **$2,500/month** platform fee for institutional Brokerage/Settlement API access + 0.10% trading/minting volume fee | **Free forever Developer Sandbox** with mock stablecoin minting, mock liquidity pairs, and unlimited test API calls | Qualified custodian with NYDFS trust charter; monthly KPMG assurance attestations; powers white-label reserves for PayPal, MercadoLibre, and institutional issuers. |
+| **[MakerDAO / Sky (DAI / USDS)](https://sky.money/)** | **~$1.8B Market Cap**<br>*($240M Annual Protocol Revenue)* | Overcollateralized Crypto & Institutional RWA Vaults | **3.75% variable APR** base stability fee on vault borrowing (benchmarked to Sky Savings Rate / DSR) | **Free forever access** to decentralized GraphQL subgraphs, governance portals, and permissionless read-calls on Ethereum mainnet | ~$13B collateralized debt; over $2.6B in institutional RWAs via Monetalis Clydesdale and BlockTower; automated auction liquidation and debt rebalancing engines. |
+| **[Frax Finance (FRAX)](https://frax.finance/)** | **~$500M Market Cap**<br>*($400M+ TVL)* | Hybrid Algorithmic Market Operations (AMO) & RWA | **0.20% swap fee** on Fraxswap automated reserve pools and **2.50% variable APR** starting borrow rate on Fraxlend | **Free forever access** to public Frax telemetry subgraphs, real-time collateral ratio dashboard, and documentation APIs | V3 protocol targeting ≥100% exogenous collateral; Federal Reserve IORB oracle integration; permissionless automated market operation smart contracts. |
+| **[First Digital Labs (FDUSD)](https://firstdigitallabs.com/)** | **~$400M Valuation**<br>*($3.0B FDUSD Circulating Supply)* | Segregated Fiat-Backed Reserve | **0.10% processing fee** for primary market minting/redemption ($50,000 institutional minimum) | **Free forever public portal** for downloading monthly independent attestation reports (Prescient Assurance LLC) and audit certifications | Reserves maintained in segregated, bankruptcy-remote accounts with licensed Hong Kong trust company; high-liquidity pairings on major global digital exchanges. |
+| **[Mountain Protocol (USDM)](https://mountainprotocol.com/)** | **~$40M Valuation**<br>*($150M+ TVL)* | Yield-Bearing Treasury-Backed Stablecoin | **0.10% redemption fee** on amounts below $250k; **0.25% annualized fee** deducted automatically from gross Treasury yields | **Free forever access** to real-time daily reserve attestations, Dune dashboards, and permissionless ERC-20 rebasing transfer methods | Regulated by Bermuda Monetary Authority; 100% backed by segregated short-dated US Treasuries; automatic daily rebase distributing yield directly to wallet holders. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore battle-tested open-source repositories powering on-chain reserve accounting, proof-of-solvency computation, multi-sig treasury governance, and automated liquidity rebalancing.
+
+> 💡 *Repositories are listed in descending order based on their current GitHub Star count. Click any star badge to inspect stargazers directly.*
+
+1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+   *Fair-code workflow automation platform (Sustainable Use License)*. Extensively adopted by crypto treasuries and operations teams to automate off-chain attestation alerts, webhook-driven bank reconciliation sweeps, and multi-chain reserve health notifications.
+
+2. **[OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)** [![GitHub stars](https://img.shields.io/github/stars/OpenZeppelin/openzeppelin-contracts?style=social&color=white)](https://github.com/OpenZeppelin/openzeppelin-contracts/stargazers)  
+   *The gold standard smart contract library for Ethereum and EVM (MIT)*. Provides foundational building blocks for reserve systems including `ERC20`, `ERC4626` (tokenized yield vaults), `AccessControl`, `Pausable`, and `MerkleProof` for cryptographic proof verification.
+
+3. **[Chainlink Core](https://github.com/smartcontractkit/chainlink)** [![GitHub stars](https://img.shields.io/github/stars/smartcontractkit/chainlink?style=social&color=white)](https://github.com/smartcontractkit/chainlink/stargazers)  
+   *Decentralized oracle node software (MIT)*. Powers on-chain Proof of Reserve (PoR) feeds by querying off-chain banking APIs, custodians, and blockchain nodes to verify reserve balances before minting wrapped or pegged tokens.
+
+4. **[Gnosis Safe Contracts](https://github.com/safe-global/safe-contracts)** [![GitHub stars](https://img.shields.io/github/stars/safe-global/safe-contracts?style=social&color=white)](https://github.com/safe-global/safe-contracts/stargazers)  
+   *Multi-signature asset management infrastructure (LGPL-3.0)*. Secures tens of billions in DAO treasuries and protocol reserve vaults through composable signature threshold policies and modular execution guards.
+
+5. **[Compound Protocol](https://github.com/compound-finance/compound-protocol)** [![GitHub stars](https://img.shields.io/github/stars/compound-finance/compound-protocol?style=social&color=white)](https://github.com/compound-finance/compound-protocol/stargazers)  
+   *Algorithmic, autonomous interest rate protocol (BSD-3-Clause)*. Implements automated reserve factor accounting, collateral liquidation cascades, and dynamic interest rate curves widely utilized in stablecoin reserve yield strategies.
+
+6. **[DefiLlama Adapters](https://github.com/DefiLlama/DefiLlama-Adapters)** [![GitHub stars](https://img.shields.io/github/stars/DefiLlama/DefiLlama-Adapters?style=social&color=white)](https://github.com/DefiLlama/DefiLlama-Adapters/stargazers)  
+   *Open-source protocol balance tracking SDK (MIT)*. Contains custom indexing scripts for auditing TVL, treasury compositions, and circulating reserve collateral across virtually every active DeFi protocol.
+
+7. **[Aave v3 Core](https://github.com/aave/aave-v3-core)** [![GitHub stars](https://img.shields.io/github/stars/aave/aave-v3-core?style=social&color=white)](https://github.com/aave/aave-v3-core/stargazers)  
+   *Non-custodial liquidity protocol contracts (BUSL-1.1 / GPL-3.0)*. Features automated collateral reserve management, emergency administrative pauses, efficiency mode (eMode) for correlated assets, and isolated risk parameters.
+
+8. **[Superfluid Protocol](https://github.com/superfluid-finance/protocol-monorepo)** [![GitHub stars](https://img.shields.io/github/stars/superfluid-finance/protocol-monorepo?style=social&color=white)](https://github.com/superfluid-finance/protocol-monorepo/stargazers)  
+   *Programmable money streaming architecture (MIT)*. Enables continuous, real-time capital allocation for treasury payroll, automated recurring reserve allocations, and continuous yield distribution without repetitive gas-heavy batch transactions.
+
+9. **[MakerDAO DSS (Dai Stablecoin System)](https://github.com/makerdao/dss)** [![GitHub stars](https://img.shields.io/github/stars/makerdao/dss?style=social&color=white)](https://github.com/makerdao/dss/stargazers)  
+   *Core smart contracts of the DAI/USDS stablecoin (AGPL-3.0)*. The definitive architecture for multi-collateral automated reserve management, debt ceilings, stability fee accumulators, and liquidation auctions.
+
+10. **[Celo Monorepo](https://github.com/celo-org/celo-monorepo)** [![GitHub stars](https://img.shields.io/github/stars/celo-org/celo-monorepo?style=social&color=white)](https://github.com/celo-org/celo-monorepo/stargazers)  
+    *Proof-of-stake layer-1 and reserve framework (Apache-2.0)*. Implements the Celo Reserve (`Mento`), an on-chain automated portfolio manager rebalancing diversified collateral (BTC, ETH, stablecoins, natural capital) to maintain algorithmic currency pegs.
+
+11. **[Uniswap Merkle Distributor](https://github.com/Uniswap/merkle-distributor)** [![GitHub stars](https://img.shields.io/github/stars/Uniswap/merkle-distributor?style=social&color=white)](https://github.com/Uniswap/merkle-distributor/stargazers)  
+    *Merkle-tree based distribution smart contract (GPL-3.0)*. Foundational implementation pattern used in verifiable proof-of-reserve snapshots, user liability trees, and automated claims processing.
+
+12. **[Yearn Vaults](https://github.com/yearn/yearn-vaults)** [![GitHub stars](https://img.shields.io/github/stars/yearn/yearn-vaults?style=social&color=white)](https://github.com/yearn/yearn-vaults/stargazers)  
+    *Autonomous yield-generating vault contracts (GPL-3.0)*. Standardizes ERC-4626 yield routing, automated collateral risk management, and profit harvesting mechanisms for treasury capital preservation.
+
+13. **[Balancer v2 Monorepo](https://github.com/balancer/balancer-v2-monorepo)** [![GitHub stars](https://img.shields.io/github/stars/balancer/balancer-v2-monorepo?style=social&color=white)](https://github.com/balancer/balancer-v2-monorepo/stargazers)  
+    *Programmable asset liquidity pools (GPL-3.0)*. Offers customizable asset weightings, automated portfolio rebalancing pools, and boosted pools that route idle reserve collateral to money markets.
+
+14. **[Liquity Protocol](https://github.com/liquity/dev)** [![GitHub stars](https://img.shields.io/github/stars/liquity/dev?style=social&color=white)](https://github.com/liquity/dev/stargazers)  
+    *Decentralized borrowing protocol with immutable code (MIT)*. Operates zero-interest loans against ETH collateral with instant algorithmic liquidations and an automated Stability Pool backing the LUSD peg.
+
+15. **[Summa Solvency (Proof of Solvency)](https://github.com/summa-dev/summa-solvency)** [![GitHub stars](https://img.shields.io/github/stars/summa-dev/summa-solvency?style=social&color=white)](https://github.com/summa-dev/summa-solvency/stargazers)  
+    *Zero-knowledge proof-of-solvency protocol (MIT / Apache-2.0)*. Uses generalized Merkle sum trees and zk-SNARKs (Halo2) to cryptographically prove that custodial liabilities are fully covered by on-chain reserves without revealing individual user account balances.
+
+16. **[Tellor Oracle](https://github.com/tellor-io/TellorCore)** [![GitHub stars](https://img.shields.io/github/stars/tellor-io/TellorCore?style=social&color=white)](https://github.com/tellor-io/TellorCore/stargazers)  
+    *Permissionless decentralized oracle protocol (MIT)*. Provides dispute-resistant on-chain reporting of external collateral valuations, spot reserve prices, and off-chain audit attestations.
+
+---
+
+## 🏗️ Architectural Blueprints for Reserve Systems
+
+When engineering custom, production-grade reserve management solutions, protocol architects typically integrate modular open-source layers:
+
+```mermaid
+flowchart TD
+    subgraph OffChain["🏛️ Off-Chain Custody & Traditional Finance"]
+        Bank["Custodial Banks & Trust Co.\n(Cash, US T-Bills, MMFs)"]
+        Auditor["Independent CPAs\n(Quarterly / Monthly Audits)"]
+    end
+
+    subgraph AttestationLayer["📡 Cryptographic Verification Layer"]
+        PoROracle["Chainlink Proof of Reserve /\nTellor Oracle Network"]
+        ZKProof["Zero-Knowledge Solvency Engine\n(Summa / Halo2 Merkle Tree)"]
+    end
+
+    subgraph OnChainManagement["⚡ On-Chain Execution & Settlement"]
+        TreasurySafe["Multi-Sig Vault Policy\n(Gnosis Safe Contracts)"]
+        MintBurnGuard["Reserve Mint/Burn Gate\n(OpenZeppelin AccessControl)"]
+        YieldEngine["Yield Optimization Engine\n(ERC-4626 / Yearn / Compound)"]
+    end
+
+    Bank -->|API Balances| PoROracle
+    Auditor -->|Attestation Proofs| ZKProof
+    PoROracle -->|On-Chain Verification| MintBurnGuard
+    ZKProof -->|Cryptographic Solvency| MintBurnGuard
+    TreasurySafe -->|Governance Rules| YieldEngine
+    MintBurnGuard -->|Rebalance Liquidity| TreasurySafe
+```
+
+### Reference Implementation Stack:
+1. **Core Token & Vault Logic:** Use [OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) for `ERC20`, `ERC4626` yield vaults, and `AccessControl`.
+2. **Oracle Attestation:** Integrate [Chainlink Proof of Reserve](https://github.com/smartcontractkit/chainlink) to feed cryptographic reserve levels into smart contract mint triggers.
+3. **Multi-Sig Custody:** Route operational permissions through [Gnosis Safe](https://github.com/safe-global/safe-contracts) with time-locks and execution guards.
+4. **Verifiable Proof of Solvency:** Implement [Summa Solvency](https://github.com/summa-dev/summa-solvency) for zk-SNARK based user liability reconciliation.
+5. **Operational Automation:** Deploy [n8n](https://github.com/n8n-io/n8n) workflows for automated off-chain monitoring, Discord/Slack alerting, and reconciliation reporting.
+
+---
+
+## 🤝 How to Contribute
+
+We actively welcome contributions from stablecoin developers, treasury managers, and crypto researchers!
+
+1. 🍴 **Fork the Repository:** Create a personal fork on GitHub.
+2. 🌿 **Create a Feature Branch:** `git checkout -b feat/add-reserve-platform`
+3. 📝 **Add or Update Entries:** Ensure entries adhere to our directory schema:
+   - Provide exact name, website, and repository links.
+   - For SaaS products, include verifiable starting prices and explicit free tier or trial parameters (no generic placeholders).
+   - For open-source tools, include the repository's social star badge linked to `/stargazers`.
+4. 🧪 **Validate Formatting:** Verify markdown rendering and alphabetical/numerical sort ordering.
+5. 🚀 **Submit a Pull Request:** Detail your rationale and include primary source documentation (e.g., audit links, pricing pages).
+
+---
+
+## ⚠️ Risk Analysis & Disclaimer
+
+> [!WARNING]
+> **Regulatory and Operational Considerations:**
+> - **Attestation vs. Full Financial Audit:** A Proof-of-Reserve attestation only verifies that a specific set of addresses or bank accounts held sufficient balances at a single discrete point in time. It does **not** evaluate undisclosed liabilities, off-balance-sheet commitments, internal fraud controls, or operational solvency.
+> - **Counterparty & Custodial Exposure:** Real-World Asset (RWA) and fiat-backed stablecoins inherit the legal, operational, and jurisdictional counterparty risks of their traditional banking partners, custodians, and asset managers.
+> - **Algorithmic & Smart Contract Vulnerabilities:** Autonomous rebalancing strategies, automated market operations (AMOs), and synthetic derivative hedges (such as basis funding rates) can experience systemic failure during severe market volatility or liquidity decoupling.
+> - **Informational Purpose Only:** This repository is maintained strictly for developer educational, research, and technical indexing purposes. Nothing in this repository constitutes investment, financial, legal, or regulatory advice.
+
+---
+
+<div align="center">
+  <sub>Maintained by the open-source Web3 community • Contributions and additions are always welcome!</sub>
+</div>
