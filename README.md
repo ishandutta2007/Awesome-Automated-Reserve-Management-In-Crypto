@@ -13,6 +13,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto?style=flat-square&color=green" alt="Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2077"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 <p align="center">
@@ -31,6 +32,8 @@
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🏗️ Architectural Blueprints for Reserve Systems](#️-architectural-blueprints-for-reserve-systems)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#--star-history)
 - [⚠️ Risk Analysis & Disclaimer](#️-risk-analysis--disclaimer)
 
 ---
@@ -185,6 +188,32 @@ We actively welcome contributions from stablecoin developers, treasury managers,
    - For open-source tools, include the repository's social star badge linked to `/stargazers`.
 4. 🧪 **Validate Formatting:** Verify markdown rendering and alphabetical/numerical sort ordering.
 5. 🚀 **Submit a Pull Request:** Detail your rationale and include primary source documentation (e.g., audit links, pricing pages).
+
+---
+
+## 💖 Support
+
+A huge **thank you** for exploring and utilizing this curated directory! If you find this resource valuable for your research, protocol development, or crypto treasury operations:
+
+- 🌟 **Star this repository** to support ongoing updates and help others discover it.
+- 🍴 **Fork and contribute** your favorite automated reserve protocols, audit frameworks, or research tools.
+- 📢 **Share it** with fellow crypto engineers, DAO treasurers, and Web3 finance teams.
+- ☕ **Buy me a coffee / sponsor:** If you would like to support ongoing development and maintenance, consider sponsoring via the [Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+</p>
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Automated-Reserve-Management-In-Crypto&type=date&legend=top-left)
 
 ---
 
