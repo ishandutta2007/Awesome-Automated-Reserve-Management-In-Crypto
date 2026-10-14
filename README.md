@@ -85,54 +85,54 @@ The table below catalogs primary commercial and hosted platforms offering automa
 
 Explore battle-tested open-source repositories powering on-chain reserve accounting, proof-of-solvency computation, multi-sig treasury governance, and automated liquidity rebalancing.
 
-> 💡 *Repositories are listed in descending order based on their current GitHub Star count. Click any star badge to inspect stargazers directly.*
+> 💡 *Repositories are listed in descending order based on their current GitHub Stars_Count. Click any Stars_Badge to inspect stargazers directly.*
 
-1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
    *Fair-code workflow automation platform (Sustainable Use License)*. Extensively adopted by crypto treasuries and operations teams to automate off-chain attestation alerts, webhook-driven bank reconciliation sweeps, and multi-chain reserve health notifications.
 
-2. **[OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)** [![GitHub stars](https://img.shields.io/github/stars/OpenZeppelin/openzeppelin-contracts?style=social&color=white)](https://github.com/OpenZeppelin/openzeppelin-contracts/stargazers)  
+2. **[OpenZeppelin Contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenZeppelin/openzeppelin-contracts?style=social&color=white)](https://github.com/OpenZeppelin/openzeppelin-contracts/stargazers)  
    *The gold standard smart contract library for Ethereum and EVM (MIT)*. Provides foundational building blocks for reserve systems including `ERC20`, `ERC4626` (tokenized yield vaults), `AccessControl`, `Pausable`, and `MerkleProof` for cryptographic proof verification.
 
-3. **[Chainlink Core](https://github.com/smartcontractkit/chainlink)** [![GitHub stars](https://img.shields.io/github/stars/smartcontractkit/chainlink?style=social&color=white)](https://github.com/smartcontractkit/chainlink/stargazers)  
+3. **[Chainlink Core](https://github.com/smartcontractkit/chainlink)** [![GitHub_Stars](https://img.shields.io/github/stars/smartcontractkit/chainlink?style=social&color=white)](https://github.com/smartcontractkit/chainlink/stargazers)  
    *Decentralized oracle node software (MIT)*. Powers on-chain Proof of Reserve (PoR) feeds by querying off-chain banking APIs, custodians, and blockchain nodes to verify reserve balances before minting wrapped or pegged tokens.
 
-4. **[Gnosis Safe Contracts](https://github.com/safe-global/safe-contracts)** [![GitHub stars](https://img.shields.io/github/stars/safe-global/safe-contracts?style=social&color=white)](https://github.com/safe-global/safe-contracts/stargazers)  
+4. **[Gnosis Safe Contracts](https://github.com/safe-global/safe-contracts)** [![GitHub_Stars](https://img.shields.io/github/stars/safe-global/safe-contracts?style=social&color=white)](https://github.com/safe-global/safe-contracts/stargazers)  
    *Multi-signature asset management infrastructure (LGPL-3.0)*. Secures tens of billions in DAO treasuries and protocol reserve vaults through composable signature threshold policies and modular execution guards.
 
-5. **[Compound Protocol](https://github.com/compound-finance/compound-protocol)** [![GitHub stars](https://img.shields.io/github/stars/compound-finance/compound-protocol?style=social&color=white)](https://github.com/compound-finance/compound-protocol/stargazers)  
+5. **[Compound Protocol](https://github.com/compound-finance/compound-protocol)** [![GitHub_Stars](https://img.shields.io/github/stars/compound-finance/compound-protocol?style=social&color=white)](https://github.com/compound-finance/compound-protocol/stargazers)  
    *Algorithmic, autonomous interest rate protocol (BSD-3-Clause)*. Implements automated reserve factor accounting, collateral liquidation cascades, and dynamic interest rate curves widely utilized in stablecoin reserve yield strategies.
 
-6. **[DefiLlama Adapters](https://github.com/DefiLlama/DefiLlama-Adapters)** [![GitHub stars](https://img.shields.io/github/stars/DefiLlama/DefiLlama-Adapters?style=social&color=white)](https://github.com/DefiLlama/DefiLlama-Adapters/stargazers)  
+6. **[DefiLlama Adapters](https://github.com/DefiLlama/DefiLlama-Adapters)** [![GitHub_Stars](https://img.shields.io/github/stars/DefiLlama/DefiLlama-Adapters?style=social&color=white)](https://github.com/DefiLlama/DefiLlama-Adapters/stargazers)  
    *Open-source protocol balance tracking SDK (MIT)*. Contains custom indexing scripts for auditing TVL, treasury compositions, and circulating reserve collateral across virtually every active DeFi protocol.
 
-7. **[Aave v3 Core](https://github.com/aave/aave-v3-core)** [![GitHub stars](https://img.shields.io/github/stars/aave/aave-v3-core?style=social&color=white)](https://github.com/aave/aave-v3-core/stargazers)  
+7. **[Aave v3 Core](https://github.com/aave/aave-v3-core)** [![GitHub_Stars](https://img.shields.io/github/stars/aave/aave-v3-core?style=social&color=white)](https://github.com/aave/aave-v3-core/stargazers)  
    *Non-custodial liquidity protocol contracts (BUSL-1.1 / GPL-3.0)*. Features automated collateral reserve management, emergency administrative pauses, efficiency mode (eMode) for correlated assets, and isolated risk parameters.
 
-8. **[Superfluid Protocol](https://github.com/superfluid-finance/protocol-monorepo)** [![GitHub stars](https://img.shields.io/github/stars/superfluid-finance/protocol-monorepo?style=social&color=white)](https://github.com/superfluid-finance/protocol-monorepo/stargazers)  
+8. **[Superfluid Protocol](https://github.com/superfluid-finance/protocol-monorepo)** [![GitHub_Stars](https://img.shields.io/github/stars/superfluid-finance/protocol-monorepo?style=social&color=white)](https://github.com/superfluid-finance/protocol-monorepo/stargazers)  
    *Programmable money streaming architecture (MIT)*. Enables continuous, real-time capital allocation for treasury payroll, automated recurring reserve allocations, and continuous yield distribution without repetitive gas-heavy batch transactions.
 
-9. **[MakerDAO DSS (Dai Stablecoin System)](https://github.com/makerdao/dss)** [![GitHub stars](https://img.shields.io/github/stars/makerdao/dss?style=social&color=white)](https://github.com/makerdao/dss/stargazers)  
+9. **[MakerDAO DSS (Dai Stablecoin System)](https://github.com/makerdao/dss)** [![GitHub_Stars](https://img.shields.io/github/stars/makerdao/dss?style=social&color=white)](https://github.com/makerdao/dss/stargazers)  
    *Core smart contracts of the DAI/USDS stablecoin (AGPL-3.0)*. The definitive architecture for multi-collateral automated reserve management, debt ceilings, stability fee accumulators, and liquidation auctions.
 
-10. **[Celo Monorepo](https://github.com/celo-org/celo-monorepo)** [![GitHub stars](https://img.shields.io/github/stars/celo-org/celo-monorepo?style=social&color=white)](https://github.com/celo-org/celo-monorepo/stargazers)  
+10. **[Celo Monorepo](https://github.com/celo-org/celo-monorepo)** [![GitHub_Stars](https://img.shields.io/github/stars/celo-org/celo-monorepo?style=social&color=white)](https://github.com/celo-org/celo-monorepo/stargazers)  
     *Proof-of-stake layer-1 and reserve framework (Apache-2.0)*. Implements the Celo Reserve (`Mento`), an on-chain automated portfolio manager rebalancing diversified collateral (BTC, ETH, stablecoins, natural capital) to maintain algorithmic currency pegs.
 
-11. **[Uniswap Merkle Distributor](https://github.com/Uniswap/merkle-distributor)** [![GitHub stars](https://img.shields.io/github/stars/Uniswap/merkle-distributor?style=social&color=white)](https://github.com/Uniswap/merkle-distributor/stargazers)  
+11. **[Uniswap Merkle Distributor](https://github.com/Uniswap/merkle-distributor)** [![GitHub_Stars](https://img.shields.io/github/stars/Uniswap/merkle-distributor?style=social&color=white)](https://github.com/Uniswap/merkle-distributor/stargazers)  
     *Merkle-tree based distribution smart contract (GPL-3.0)*. Foundational implementation pattern used in verifiable proof-of-reserve snapshots, user liability trees, and automated claims processing.
 
-12. **[Yearn Vaults](https://github.com/yearn/yearn-vaults)** [![GitHub stars](https://img.shields.io/github/stars/yearn/yearn-vaults?style=social&color=white)](https://github.com/yearn/yearn-vaults/stargazers)  
+12. **[Yearn Vaults](https://github.com/yearn/yearn-vaults)** [![GitHub_Stars](https://img.shields.io/github/stars/yearn/yearn-vaults?style=social&color=white)](https://github.com/yearn/yearn-vaults/stargazers)  
     *Autonomous yield-generating vault contracts (GPL-3.0)*. Standardizes ERC-4626 yield routing, automated collateral risk management, and profit harvesting mechanisms for treasury capital preservation.
 
-13. **[Balancer v2 Monorepo](https://github.com/balancer/balancer-v2-monorepo)** [![GitHub stars](https://img.shields.io/github/stars/balancer/balancer-v2-monorepo?style=social&color=white)](https://github.com/balancer/balancer-v2-monorepo/stargazers)  
+13. **[Balancer v2 Monorepo](https://github.com/balancer/balancer-v2-monorepo)** [![GitHub_Stars](https://img.shields.io/github/stars/balancer/balancer-v2-monorepo?style=social&color=white)](https://github.com/balancer/balancer-v2-monorepo/stargazers)  
     *Programmable asset liquidity pools (GPL-3.0)*. Offers customizable asset weightings, automated portfolio rebalancing pools, and boosted pools that route idle reserve collateral to money markets.
 
-14. **[Liquity Protocol](https://github.com/liquity/dev)** [![GitHub stars](https://img.shields.io/github/stars/liquity/dev?style=social&color=white)](https://github.com/liquity/dev/stargazers)  
+14. **[Liquity Protocol](https://github.com/liquity/dev)** [![GitHub_Stars](https://img.shields.io/github/stars/liquity/dev?style=social&color=white)](https://github.com/liquity/dev/stargazers)  
     *Decentralized borrowing protocol with immutable code (MIT)*. Operates zero-interest loans against ETH collateral with instant algorithmic liquidations and an automated Stability Pool backing the LUSD peg.
 
-15. **[Summa Solvency (Proof of Solvency)](https://github.com/summa-dev/summa-solvency)** [![GitHub stars](https://img.shields.io/github/stars/summa-dev/summa-solvency?style=social&color=white)](https://github.com/summa-dev/summa-solvency/stargazers)  
+15. **[Summa Solvency (Proof of Solvency)](https://github.com/summa-dev/summa-solvency)** [![GitHub_Stars](https://img.shields.io/github/stars/summa-dev/summa-solvency?style=social&color=white)](https://github.com/summa-dev/summa-solvency/stargazers)  
     *Zero-knowledge proof-of-solvency protocol (MIT / Apache-2.0)*. Uses generalized Merkle sum trees and zk-SNARKs (Halo2) to cryptographically prove that custodial liabilities are fully covered by on-chain reserves without revealing individual user account balances.
 
-16. **[Tellor Oracle](https://github.com/tellor-io/TellorCore)** [![GitHub stars](https://img.shields.io/github/stars/tellor-io/TellorCore?style=social&color=white)](https://github.com/tellor-io/TellorCore/stargazers)  
+16. **[Tellor Oracle](https://github.com/tellor-io/TellorCore)** [![GitHub_Stars](https://img.shields.io/github/stars/tellor-io/TellorCore?style=social&color=white)](https://github.com/tellor-io/TellorCore/stargazers)  
     *Permissionless decentralized oracle protocol (MIT)*. Provides dispute-resistant on-chain reporting of external collateral valuations, spot reserve prices, and off-chain audit attestations.
 
 ---
@@ -185,7 +185,7 @@ We actively welcome contributions from stablecoin developers, treasury managers,
 3. 📝 **Add or Update Entries:** Ensure entries adhere to our directory schema:
    - Provide exact name, website, and repository links.
    - For SaaS products, include verifiable starting prices and explicit free tier or trial parameters (no generic placeholders).
-   - For open-source tools, include the repository's social star badge linked to `/stargazers`.
+   - For open-source tools, include the repository's social Stars_Badge linked to `/stargazers`.
 4. 🧪 **Validate Formatting:** Verify markdown rendering and alphabetical/numerical sort ordering.
 5. 🚀 **Submit a Pull Request:** Detail your rationale and include primary source documentation (e.g., audit links, pricing pages).
 
